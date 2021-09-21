@@ -1,0 +1,159 @@
+top - 12:21:33 up  7:05,  4 users,  load average: 0.00, 0.02, 0.05
+Tasks: 151 total,   1 running, 134 sleeping,  15 stopped,   1 zombie
+Cpu(s):  0.9%us,  0.3%sy,  0.0%ni, 98.5%id,  0.3%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:    508000k total,   498296k used,     9704k free,    19684k buffers
+Swap:   521212k total,     5764k used,   515448k free,   194244k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND                                       
+ 1075 root      20   0 99.8m  56m 7316 S  2.0 11.3   1:56.36 Xorg                                          
+ 1816 vmadmin   20   0 94856  15m  10m S  2.0  3.2   0:28.78 gnome-terminal                                
+12362 vmadmin   20   0  2628 1116  836 R  2.0  0.2   0:00.01 top                                           
+    1 root      20   0  2920 1660 1192 S  0.0  0.3   0:00.81 init                                          
+    2 root      20   0     0    0    0 S  0.0  0.0   0:00.00 kthreadd                                      
+    3 root      20   0     0    0    0 S  0.0  0.0   0:00.28 ksoftirqd/0                                   
+    6 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 migration/0                                   
+    7 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 cpuset                                        
+    8 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 khelper                                       
+    9 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 netns                                         
+   10 root      20   0     0    0    0 S  0.0  0.0   0:00.05 sync_supers                                   
+   11 root      20   0     0    0    0 S  0.0  0.0   0:00.00 bdi-default                                   
+   12 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 kintegrityd                                   
+   13 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 kblockd                                       
+   14 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 kacpid                                        
+   15 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 kacpi_notify                                  
+   16 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 kacpi_hotplug                                 
+   17 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 ata_sff                                       
+   18 root      20   0     0    0    0 S  0.0  0.0   0:00.99 khubd                                         
+   19 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 md                                            
+   23 root      20   0     0    0    0 S  0.0  0.0   0:00.01 khungtaskd                                    
+   24 root      20   0     0    0    0 S  0.0  0.0   0:00.20 kswapd0                                       
+   25 root      25   5     0    0    0 S  0.0  0.0   0:00.00 ksmd                                          
+   26 root      20   0     0    0    0 S  0.0  0.0   0:00.00 fsnotify_mark                                 
+   27 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 aio                                           
+   28 root      20   0     0    0    0 S  0.0  0.0   0:00.00 ecryptfs-kthrea                               
+   29 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 crypto                                        
+   33 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 kthrotld                                      
+   34 root      20   0     0    0    0 S  0.0  0.0   0:00.52 kworker/u:2                                   
+   35 root      20   0     0    0    0 S  0.0  0.0   0:00.02 scsi_eh_0                                     
+   36 root      20   0     0    0    0 S  0.0  0.0   0:00.92 scsi_eh_1                                     
+   37 root      20   0     0    0    0 S  0.0  0.0   0:00.14 kworker/u:3                                   
+   39 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 kmpathd                                       
+   40 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 kmpath_handlerd                               
+   41 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 kondemand                                     
+   42 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 kconservative                                 
+  229 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 mpt_poll_0                                    
+  230 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 mpt/0                                         
+  289 root      20   0     0    0    0 S  0.0  0.0   0:00.00 scsi_eh_2                                     
+  306 root      20   0     0    0    0 S  0.0  0.0   0:02.12 jbd2/sda1-8                                   
+  307 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 ext4-dio-unwrit                               
+  351 root      20   0  2412  848  704 S  0.0  0.2   0:00.08 upstart-udev-br                               
+  365 root      16  -4  2880  388  364 S  0.0  0.1   0:00.12 udevd                                         
+  445 root      18  -2  2876  368  344 S  0.0  0.1   0:00.00 udevd                                         
+  488 root      18  -2  2876  332  308 S  0.0  0.1   0:00.00 udevd                                         
+  595 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 vmmemctl                                      
+  612 root      20   0  2412  536  452 S  0.0  0.1   0:00.01 upstart-socket-                               
+  652 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 kpsmoused                                     
+  663 syslog    20   0 27472 1156  980 S  0.0  0.2   0:00.12 rsyslogd                                      
+  699 messageb  20   0  3496 1616  856 S  0.0  0.3   0:00.43 dbus-daemon                                   
+  707 root      20   0 17248 3920 3420 S  0.0  0.8   0:00.26 NetworkManager                                
+  720 avahi     20   0  3016 1280 1176 S  0.0  0.3   0:00.06 avahi-daemon                                  
+  721 avahi     20   0  3016  248  216 S  0.0  0.0   0:00.00 avahi-daemon                                  
+  742 root      20   0  4660 1956 1768 S  0.0  0.4   0:00.08 modem-manager                                 
+  774 root      20   0 22320 3236 2608 S  0.0  0.6   0:00.25 polkitd                                       
+  785 root      20   0  1872  488  484 S  0.0  0.1   0:00.00 getty                                         
+  790 root      20   0  1872  488  484 S  0.0  0.1   0:00.03 getty                                         
+  799 root      20   0  1872  488  484 S  0.0  0.1   0:00.00 getty                                         
+  800 root      20   0  1872  488  484 S  0.0  0.1   0:00.00 getty                                         
+  804 root      20   0  1872  488  484 S  0.0  0.1   0:00.00 getty                                         
+  814 root      20   0  1864  492  488 S  0.0  0.1   0:00.00 acpid                                         
+  829 daemon    20   0  2132  232  220 S  0.0  0.0   0:00.00 atd                                           
+  830 root      20   0  2268  768  696 S  0.0  0.2   0:00.03 cron                                          
+  858 root      20   0  5172 1048 1048 S  0.0  0.2   0:00.00 wpa_supplicant                                
+  954 root      20   0     0    0    0 S  0.0  0.0   0:01.20 flush-8:0                                     
+  960 root      20   0 18536 3076 2764 S  0.0  0.6   0:00.54 gdm-binary                                    
+  963 root      20   0  6792 1884 1620 S  0.0  0.4   0:00.02 cupsd                                         
+  967 root      20   0 26168 3172 2564 S  0.0  0.6   0:00.15 console-kit-dae                               
+ 1037 root      20   0 20352 3984 3060 S  0.0  0.8   0:00.07 gdm-simple-slav                               
+ 1339 root      20   0 14324 2860 2252 S  0.0  0.6   0:18.91 vmtoolsd                                      
+ 1372 root      20   0  1872  564  484 S  0.0  0.1   0:00.00 getty                                         
+ 1433 root      20   0 18896 3324 2608 S  0.0  0.7   0:00.04 gdm-session-wor                               
+ 1438 rtkit     21   1 18888 1176  988 S  0.0  0.2   0:00.13 rtkit-daemon                                  
+ 1443 root      20   0 16720 3528 2792 S  0.0  0.7   0:00.05 upowerd                                       
+ 1561 vmadmin   20   0 42280 3124 2552 S  0.0  0.6   0:00.04 gnome-keyring-d                               
+ 1580 vmadmin   20   0 36240 7496 6060 S  0.0  1.5   0:00.15 gnome-session                                 
+ 1613 vmadmin   20   0  3368  184    0 S  0.0  0.0   0:00.08 ssh-agent                                     
+ 1616 vmadmin   20   0  3456  564  352 S  0.0  0.1   0:00.00 dbus-launch                                   
+ 1617 vmadmin   20   0  4836 2012  688 S  0.0  0.4   0:01.10 dbus-daemon                                   
+ 1622 vmadmin   20   0 10400 4540 2524 S  0.0  0.9   0:00.44 gconfd-2                                      
+ 1633 vmadmin   20   0 98.2m  10m 8000 S  0.0  2.1   0:02.89 gnome-settings-                               
+ 1637 vmadmin   20   0  8144 2400 1964 S  0.0  0.5   0:00.03 gvfsd                                         
+ 1642 vmadmin   20   0 30976 2320 1712 S  0.0  0.5   0:00.00 gvfs-fuse-daemo                               
+ 1646 vmadmin   20   0  104m  11m 9020 S  0.0  2.3   0:05.74 metacity                                      
+ 1649 vmadmin    9 -11 96000 4656 3348 S  0.0  0.9   0:09.23 pulseaudio                                    
+ 1653 vmadmin   20   0 20788 3308 2664 S  0.0  0.7   0:00.00 gconf-helper                                  
+ 1654 vmadmin   20   0  131m  31m  17m S  0.0  6.3   0:30.96 nautilus                                      
+ 1659 vmadmin   20   0  9616 3200 2560 S  0.0  0.6   0:00.01 gvfs-gdu-volume                               
+ 1660 vmadmin   20   0 40212 8540 6540 S  0.0  1.7   0:00.03 evolution-alarm                               
+ 1663 root      20   0 14020 3056 2464 S  0.0  0.6   0:00.02 udisks-daemon                                 
+ 1664 root      20   0  5564  708  444 S  0.0  0.1   0:01.71 udisks-daemon                                 
+ 1665 vmadmin   20   0 48064 4720 3792 S  0.0  0.9   0:00.43 zeitgeist-datah                               
+ 1666 vmadmin   20   0 53260 8064 6428 S  0.0  1.6   0:00.04 bluetooth-apple                               
+ 1668 vmadmin   20   0  114m  17m  10m S  0.0  3.4   0:05.61 gnome-panel                                   
+ 1672 vmadmin   20   0  125m  13m 9.8m S  0.0  2.6   0:00.23 nm-applet                                     
+ 1675 vmadmin   20   0 80240  18m  13m S  0.0  3.8   0:25.74 vmware-user-loa                               
+ 1677 vmadmin   20   0 18460 2220 1836 S  0.0  0.4   0:00.00 gvfs-afc-volume                               
+ 1678 vmadmin   20   0 53348 8308 6612 S  0.0  1.6   0:00.34 gnome-power-man                               
+ 1682 vmadmin   20   0  8768 2224 1692 S  0.0  0.4   0:00.00 gvfs-gphoto2-vo                               
+ 1683 vmadmin   20   0 27164 6528 5224 S  0.0  1.3   0:00.02 polkit-gnome-au                               
+ 1685 vmadmin   20   0 33540  13m 5900 S  0.0  2.7   0:01.93 zeitgeist-daemo                               
+ 1695 vmadmin   20   0  4168  504  440 S  0.0  0.1   0:00.00 cat                                           
+ 1707 vmadmin   20   0 17072 3472 2764 S  0.0  0.7   0:00.07 gvfsd-trash                                   
+ 1708 vmadmin   20   0     0    0    0 Z  0.0  0.0   0:00.00 zeitgeist-datah <defunct>                     
+ 1715 vmadmin   20   0 73588  11m 9048 S  0.0  2.4   0:00.78 notify-osd                                    
+ 1724 vmadmin   20   0 34788 3448 2764 S  0.0  0.7   0:00.00 bonobo-activati                               
+ 1734 vmadmin   20   0 82544  12m 9.9m S  0.0  2.6   0:06.96 wnck-applet                                   
+ 1736 vmadmin   20   0 82008  10m 7888 S  0.0  2.1   0:00.08 trashapplet                                   
+ 1739 vmadmin   20   0 93092  13m 9.8m S  0.0  2.7   0:03.29 indicator-apple                               
+ 1740 vmadmin   20   0 77792 8760 6704 S  0.0  1.7   0:00.06 notification-ar                               
+ 1750 vmadmin   20   0  7972 2228 1712 S  0.0  0.4   0:00.04 gvfsd-metadata                                
+ 1753 vmadmin   20   0  8284 2508 2036 S  0.0  0.5   0:00.00 gvfsd-burn                                    
+ 1756 vmadmin   20   0 21496 2324 1980 S  0.0  0.5   0:00.01 dconf-service                                 
+ 1762 vmadmin   20   0 59392 4632 3696 S  0.0  0.9   0:00.02 indicator-messa                               
+ 1763 vmadmin   20   0 59476 6544 5104 S  0.0  1.3   0:00.10 indicator-datet                               
+ 1765 vmadmin   20   0 60544 4856 3848 S  0.0  1.0   0:00.06 indicator-me-se                               
+ 1766 vmadmin   20   0  118m 5672 4488 S  0.0  1.1   0:00.20 indicator-sound                               
+ 1769 vmadmin   20   0 51464 5436 4356 S  0.0  1.1   0:00.09 indicator-sessi                               
+ 1770 vmadmin   20   0 40492 4096 3288 S  0.0  0.8   0:00.09 indicator-appli                               
+ 1798 vmadmin   20   0 18072 4088 3336 S  0.0  0.8   0:00.04 geoclue-master                                
+ 1807 vmadmin   20   0 28192 5984 4332 S  0.0  1.2   0:00.18 gnome-screensav                               
+ 1814 vmadmin   20   0 20448 6532 5068 S  0.0  1.3   0:00.05 gdu-notificatio                               
+ 1818 vmadmin   20   0 20532 8100 6176 S  0.0  1.6   0:01.49 bamfdaemon                                    
+ 1823 vmadmin   20   0  2068  716  588 S  0.0  0.1   0:00.04 gnome-pty-helpe                               
+ 1879 vmadmin   20   0 34492  16m 9060 S  0.0  3.3   0:03.18 applet.py                                     
+ 1944 vmadmin   20   0 73244  29m 9748 S  0.0  5.9   0:27.14 ubuntuone-syncd                               
+ 1972 vmadmin   20   0 82560  11m 9360 S  0.0  2.4   0:00.70 update-notifier                               
+ 2536 vmadmin   20   0  7444 3840 1556 S  0.0  0.8   0:00.17 bash                                          
+ 3578 vmadmin   20   0  167m  63m  15m S  0.0 12.7   0:44.01 gedit                                         
+ 3588 vmadmin   20   0  7636 3952 1624 S  0.0  0.8   0:00.57 bash                                          
+ 5403 vmadmin   20   0  7416 3832 1572 S  0.0  0.8   0:00.27 bash                                          
+ 5610 vmadmin   20   0  5276 1476 1144 S  0.0  0.3   0:02.49 backup.sh                                     
+ 6209 vmadmin   20   0  5280 1460 1120 T  0.0  0.3   0:00.00 backup_new.sh                                 
+ 6218 vmadmin   20   0  5308 1400 1040 T  0.0  0.3   0:00.27 tar                                           
+ 6219 vmadmin   20   0  2068  500  336 T  0.0  0.1   0:03.36 gzip                                          
+ 6238 vmadmin   20   0  5280 1456 1120 T  0.0  0.3   0:00.00 backup_new.sh                                 
+ 6248 vmadmin   20   0  5532 1480 1068 T  0.0  0.3   0:00.06 tar                                           
+ 6249 vmadmin   20   0  2068  500  336 T  0.0  0.1   0:02.94 gzip                                          
+10743 root      20   0     0    0    0 S  0.0  0.0   0:00.10 kworker/0:1                                   
+11247 vmadmin   20   0  4508  828  700 T  0.0  0.2   0:00.01 less                                          
+11320 vmadmin   20   0  4508  832  700 T  0.0  0.2   0:00.01 less                                          
+11375 root      20   0     0    0    0 S  0.0  0.0   0:00.09 kworker/0:0                                   
+11395 vmadmin   20   0  4508  828  700 T  0.0  0.2   0:00.01 less                                          
+11448 vmadmin   20   0  4508  832  700 T  0.0  0.2   0:00.00 less                                          
+11496 vmadmin   20   0  4508  828  700 T  0.0  0.2   0:00.00 less                                          
+11602 vmadmin   20   0  4508  832  700 T  0.0  0.2   0:00.01 less                                          
+11647 vmadmin   20   0  2632 1156  860 T  0.0  0.2   0:00.06 top                                           
+11783 vmadmin   20   0  4432  864  660 T  0.0  0.2   0:00.00 grep                                          
+11893 vmadmin   20   0  4508  832  700 T  0.0  0.2   0:00.01 less                                          
+12036 root      20   0     0    0    0 S  0.0  0.0   0:00.02 kworker/0:2                                   
+12364 vmadmin   20   0  4148  508  444 S  0.0  0.1   0:00.00 sleep                                         
+
