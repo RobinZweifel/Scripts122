@@ -8,4 +8,3 @@ echo $Antwort
 read -p "Erste Zahl eingeben: " zahl1
 read -p "Zweite Zahl eingeben: " zahl2
 echo $((zahl1 * zahl2))
-
