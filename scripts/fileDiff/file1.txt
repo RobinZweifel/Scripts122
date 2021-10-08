@@ -7,3 +7,4 @@
 7: The quick brown frog jumps over the lazy cat.
 8: The quick brown fox runss over the lazy dog.
 9: The quick red fox jumps over the lazy dog.
+10: The quick red fox jumps over the lazy dog.
